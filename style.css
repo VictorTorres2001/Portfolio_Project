@@ -65,3 +65,12 @@ a i {
 i {
     font-size: 2em;
 }
+
+.arrows {
+    height: 4em;
+    width: 1.5em;
+}
+
+#right-arrow {
+    transform: scaleX(-1);
+}
