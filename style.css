@@ -26,10 +26,13 @@ body{
 
 header {
     width: 100%;
-    height: 69px;
+    height: 3em;
     border-bottom: 1px solid rgb(0, 0, 0);
     border-top: 1px solid rgb(0, 0, 0);
     align-items: center;
+    position: fixed;
+    left: 0;
+    background-color: rgb(66, 219, 219);
 } 
 
 nav span {
@@ -48,8 +51,8 @@ nav span {
     justify-content: center;
 }
 
-span a,
-a i {
+a
+ {
     color: black;
     text-decoration: none;
 }
@@ -60,6 +63,7 @@ a i {
     font-size: 1.3em;
     font-family: 'Press Start 2P', cursive;
     padding-right: 3em;
+    user-select: none;
 }
 
 i {
@@ -69,8 +73,14 @@ i {
 .arrows {
     height: 4em;
     width: 1.5em;
+    padding-top: 1%
 }
 
 #right-arrow {
     transform: scaleX(-1);
+}
+
+#about,
+#contact {
+    padding-top: 3em;
 }
